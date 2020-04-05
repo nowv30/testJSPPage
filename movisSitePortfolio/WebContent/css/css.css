@@ -1,0 +1,185 @@
+* {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            font-style: none;
+        
+        }
+        body {
+            background: #727272;
+            text-align: center;
+        }
+        #wapper {
+            width: 1000px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        /* header-start */
+        header {
+            width: 200px;
+            font-size: 20px;
+            position: fixed;
+            display: block;
+            min-height: 100%;
+            border-left: 1px solid #212121;
+            border-right: 1px solid #212121;
+            background: #2b2b2b;
+        }
+        header .title {
+            margin: 100px 0;
+        }
+        header .title h1 {
+            color: gainsboro;
+            font-size: 25px;
+
+        }
+        header .menu-remote {
+            height: 2000px;
+        }
+        header .menuBtn {
+            border: 1px solid #212121;
+            margin-top: 100px;
+            line-height: 100px;
+            color: gainsboro;
+        }
+        header .menuBtn li {
+            border: 1px solid #212121;
+            color: gainsboro;
+        }
+         header .menuBtn li a{
+           color: gainsboro;
+        }
+        /* header-end */
+
+        /* section-start */
+        section {
+            text-align: left;
+            margin-left: 220px;
+            height: 1200px;
+            background: rgba(0, 0, 0, 0.344);
+        }
+        
+        .loginBox{text-align: right; font-size: 20px; }
+        .loginBox ul{display: inline-block;}
+        .loginBox ul li{float: right; margin-right: 40px; padding: 20px 0;}
+        .loginBox ul li a{color:gainsboro;}
+        .loginBox::after{display: block; content: " "; clear: both;}
+        
+        
+        /* section-end */
+
+        /* article-start */
+   
+        article .poster{width: 90%; margin: 0 auto;}
+        article .posterBtn{width:100%; margin-top: 20px; display: inline-block;  text-align: center;}
+        article .posterBtn li{width:125px; height: 204px; border: 1px solid; margin: 10px 0 10px 10px; 
+        				  float: left; }
+        .posterTitle li h2{text-align: center; color:gainsboro}
+
+        /*게시판 -start*/
+        article.board{
+        width: 600px;
+        margin: 0 auto; 
+        }
+
+        article.board > ul > li:first-child {
+            text-align: center;
+            font-size:14pt;
+            height:40px;
+            vertical-align:middle;
+            line-height:30px;
+        }
+
+        .ulTitle li h2{text-align: center; margin-top: 30px;color:gainsboro}
+
+        .ulTable {margin-top:10px;color:gainsboro;}
+        
+
+        .ulTable > li:first-child > ul > li {
+            background-color:#21212166;;
+            font-weight:bold;
+            text-align:center;
+        }
+
+        .ulTable > li > ul {
+            clear:both;
+            padding:0px auto;
+            position:relative;
+            min-width:40px;
+            text-align:center;
+        }   
+        .ulTable > li > ul > li { 
+            float:left;
+            font-size:10pt;
+            border-bottom:1px solid silver;
+            vertical-align:baseline;
+            text-align:center;
+        }   
+
+        .ulTable > li > ul > li:first-child               {width:10%;} /*No 열 크기*/
+        .ulTable > li > ul > li:first-child +li           {width:45%;} /*제목 열 크기*/
+        .ulTable > li > ul > li:first-child +li+li        {width:20%;} /*작성일 열 크기*/
+        .ulTable > li > ul > li:first-child +li+li+li     {width:15%;} /*작성자 열 크기*/
+        .ulTable > li > ul > li:first-child +li+li+li+li  {width:10%;} /*조회수 열 크기*/
+
+        .divPaging {
+            clear:both; 
+            margin:0 auto; 
+            width:220px; 
+            height:50px;
+        }
+
+        .divPaging > div {
+            float:left;
+            width: 30px;
+            margin:0 auto;
+            text-align:center;
+        }
+
+        .liSearchOption {clear:both;}
+        .liSearchOption > div {
+            margin:0 auto; 
+            margin-top: 30px; 
+            width:auto; 
+            height:100px;
+
+        }
+
+        .left {
+            text-align : left;
+         }
+        /*게시판 -end*/
+        
+        /*좌석 - start*/
+		#seat{
+			margin: 0 auto;
+			text-align: center;
+			color: gainsboro;
+			margin-top: 50px;
+		}
+		#seat p{
+			width: 500px;		
+			margin: 0 auto;	
+			background-color: buttonshadow;
+		}
+		#seat input{
+			width: 50px;
+			height: 50px;
+			margin: 5px;
+		}
+		
+        /*좌석 - end*/
+        
+
+        
+        /* article-end */
+
+
+        /* footer-start */
+        footer {
+            background: rgba(0, 0, 0, 0.444);
+
+        }
+        /* footer-end */
